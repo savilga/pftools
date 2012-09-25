@@ -1,0 +1,14 @@
+Source: pftools
+Section: admin
+Priority: optional
+Maintainer: Sandra Villanueva Gavino <savilga@gmail.com>
+Uploaders: Luis Antonio Garcia Gisbert <luisgg@gmail.com>
+Build-Depends: debhelper (>= 7.0)
+Standards-Version: 3.9.3
+
+Package: pftools
+Architecture: all
+Depends: ${misc:Depends} 
+Description: allows to install some scripts relative to pfsense's machinery
+Install some scripts to generate alias, dhcp, rules, etc to control certain
+features about the configuration of each of the networks that are controlled by PfSense 
